@@ -42,7 +42,7 @@ void Card::printCard() const
 	printSuit();
 	std::cout << "|\n\t|_______________________________";
 	printRank();
-	std::cout << "|\n\n\n";
+	std::cout << "|\n\n\n\t";
 }
 
 int Card::getCardValue() const
