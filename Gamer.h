@@ -17,4 +17,7 @@ public:
 	bool question();
 	void menu();
 	void playBlackjack(Deck& deck);
+	
+	friend void end(const Gamer& Jack, const int& start_bank);
+	friend int main();
 };
